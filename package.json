@@ -1,0 +1,34 @@
+{
+  "name": "card-nfc",
+  "version": "1.0.0",
+  "description": "NFC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://developerhincapie@bitbucket.org/devbarbers/card-nfc.git"
+  },
+  "author": "Team barberscloud",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/devbarbers/card-nfc#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "https": "^1.0.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "mongoose": "4.10.2",
+    "mongoose-pagination": "^1.0.0",
+    "mongoose-timestamp-plugin": "0.0.1",
+    "mongoose-timezone": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
